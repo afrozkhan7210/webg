@@ -1,0 +1,49 @@
+*{
+   margin: 0px;
+ padding: 0px; 
+ }
+
+
+
+
+    ul{
+      margin: 0px;
+    padding: px; 
+  
+    }
+
+    ul li{
+       background-color: black;
+       width: 70px;
+       height: 30px;
+       line-height: 30px;
+       float: left;
+       border: 10px solid white;
+       text-align: center;
+    }
+
+    ul li a{
+       color: white;
+       text-decoration: none;
+       display: block;
+    }
+   
+    ul li a:hover{
+     background-color: green;
+    }
+
+    ul li ul li {
+       margin-left: -10;
+    border-top: -20px solid white;
+       display: none;
+    }
+
+    ul li:hover ul li{
+       display: block;
+    }
+
+
+
+
+    
+    
